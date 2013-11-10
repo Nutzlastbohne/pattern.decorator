@@ -1,0 +1,15 @@
+=== Decorator Pattern ===
+
+-- Naming Conventions --
+
+?BaseClass?	- Abstract Base Class or Interface which functions as a base for the objects to be decorated, as well as the decorators themselves
+Component	- extends/implements BaseClass; Object which can be decorated
+Decorator	- extends/implements BaseClass and enhances functionality (behavior) of the decorated Object
+
+-- Other Names --
+
+AbstractBeverage - the Component
+AbstractIngedientDecorator - Decorator baseclass (extends AbstractBeverage) 
+
+-- How it works --
+Since decorators and components share the same root class, arbitrary decorations are possible
