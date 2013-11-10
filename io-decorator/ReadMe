@@ -1,0 +1,2 @@
+Decorator pattern example using the java.io Reader/Writer classes
+(which make use of the decorator-pattern themselves) 
